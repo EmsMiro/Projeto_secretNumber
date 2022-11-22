@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+@import "../css/checkbox.css";
+:root {
+    --font-family:'Nunito Sans', sans-serif;
+    --bg-color:#15AEBF;
+    --primary-color:#323240;
+    --secondary-color: #ffffff;
+}
+
+.dark-mode:root {
+    --bg-color:#323240;
+    --primary-color:#15AEBF;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: 'Nunito Sans', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+    
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3{
+    font-size: 2.5em;
+    margin-top: 25px;
+    /* margin-left: auto; */
+    margin-right: 10px;
+}
+
+hr {
+    margin-top: 20px;
+    width: 20%;
+    border: 1px solid var(--secondary-color);
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 2.5em;
+}
+
+.box {
+    border: 2px solid var(--secondary-color);
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 4em;
+    padding:10px;
+    margin:20px ;
+}
+
+.btn-restart {
+    padding: 8px 15px;
+    border: none;
+    background:var(--secondary-color);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-restart:hover {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    transition: 0.7s;
+}
+
+.footer-p {
+    margin-top: 20px;
+    text-decoration: none;
+}    
+
+.footer-a {
+    cursor: pointer;
+    color: var(--secondary-color)
+}
+

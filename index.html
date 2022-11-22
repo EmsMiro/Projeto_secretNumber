@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./app/favicon.ico" type="image/x-icon">
+    <title>Número Secreto</title>
+</head>
+<body>
+
+    <h1> Tente adivinhar o número Secreto</h1>
+    <hr>
+    <h3> Fale um número entre <span id="menor-valor" >0</span> e <span id="maior-valor">100</span></h3>
+    <div id="chute" class="mensagem">
+        <!-- <div>Você disse:</div>
+        <span class="box">20</span>
+        <div>O número secreto é maior <i class="fa-sharp fa-solid fa-circle-arrow-up"></i></div> -->       
+        
+    </div>
+     
+    <div class="checkbox__container">
+        <p class="chk-text">Dark Mode</p>            
+        <input type="checkbox" id="chk">
+        
+        <label for="chk" class="switch">                 
+            <span class="slider"></span>
+        </label>            
+    </div>
+
+    <p class="footer-p">Coded with ❤️ by <a class= 'footer-p footer-a'href="https://www.linkedin.com/in/ednirli-miro-188b1513a/">Ems Miro</a></p>
+   
+    <script src="./app/dark-mode.js"></script>
+    <script src="./app/sortear-numero.js"></script>
+    <script src="./app/reconhecimento-de-voz.js"></script>
+    <script src="./app/validacao.js"></script>
+    <script src="./app/confetti.js"></script>
+</body>
+</html>
